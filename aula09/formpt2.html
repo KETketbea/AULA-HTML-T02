@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Dados do aluno</legend>
+
+            <label for="cx1">Nome:</label>
+            <input type="text" id="cx1">
+            <br>
+
+            <label for="cx2">E-mail:</label>
+            <input type="text" id="cx2">
+            <br>
+
+            <label for="cx3">Endereso:</label>
+            <input type="email" id="cx3">
+
+        </fieldset>
+
+
+        <br><br>
+
+
+<fieldset>
+    <legend>Informaçoes do curso</legend>
+
+    <label for="listasUnidades">Selecione sua unidade</label>
+    <br>
+    <select name="Unidades" id="listasUnidades">
+
+        <option value="Santan">Santana</option>
+        <option value="SantoAmaro">Santo Amaro</option>
+        <option value="Diadema">Diadema</option>
+        <option value="Itaquera">Itaquera</option>
+
+    </select>
+
+    <br>
+    <br>
+
+    <label for="Unidade2">Selecione sua unidade</label>
+    <br>
+    <select name="unidades2" id="Unidade2">
+
+        <option value="unidades" selected disabled></option>
+        <option value="1">Exemplo 1</option>
+        <option value="2">Exemplo 2</option>
+        <option value="3">Exemplo 3</option>
+        <option value="4">Exemplo 4</option>
+    </select>
+
+    <br>
+
+    <p>Onde voce mora:</p>
+    <input type="text" list="cidade" autocamplete="on" name="listaCidade" placeholder="Digite sua Senha">
+
+    <datalist id="cidade">
+        <option value="1">Exemplo 1</option>
+        <option value="2">Exemplo 2</option>
+        <option value="3">Exemplo 3</option>
+        <option value="4">Exemplo 4</option>
+    </datalist>
+    
+</fieldset>
+
+        <br>
+
+        <p>gral de satisfaçao</p>
+        <input type="range" name="#" id="#">
+
+        <br>
+        <br>
+
+<fieldset>
+    <legend>Comentarios</legend>
+
+<textarea name="avaliacao" id="avaliacao" cols="30" rows="10" placeholder="Deixe seu Comentario."
+            maxlength="100"></textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+
+</fieldset>
+        
+
+    </form>
+</body>
+
+</html>
